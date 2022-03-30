@@ -13,7 +13,7 @@ struct library
 char car_name[30];
 char owner[30];
 int KM,n,Z;
-float price,p, R, r,d,X, emi;
+ float price,p, R, r,d,X, emi;
 int Y;
 };
 
@@ -21,14 +21,12 @@ int main()
 {
 
 char nam;
-    printf("ENTER USER  NAME ");
-    scanf("%s",&nam);
-    
-    srand(time(0));
- 
-    for(int i = 0; i<1; i++)
-     printf("YOUR REFERENCE  NUMBER ");
-        printf(" %d ", rand());
+ printf("ENTER USER  NAME ");
+ scanf("%s",&nam);
+ srand(time(0));
+ for(int i = 0; i<1; i++)
+ printf("YOUR REFERENCE  NUMBER ");
+ printf(" %d ", rand());
 
 struct library l[100];
 char ow_nm[30],cr_nm[30];

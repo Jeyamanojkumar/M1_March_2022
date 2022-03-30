@@ -10,3 +10,6 @@ This project includes three phases: one on the management side (warehouse entry)
    
 # FEATURES:
 This project is entirely dependent on each individual brand, and users who currently own a car from that brand may only check their EMI and a list of new cars that are available exclusively through this project.
+
+# DATA:
+ This project needed a large amount of data for implementation. CAR Information And there are specifications for each brand, each model, and each owner.

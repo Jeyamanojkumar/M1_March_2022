@@ -63,10 +63,10 @@ switch (j)
 case 1:  
 
 printf ("Enter car name = ");
-scanf ("%s",l[i].car_name);
+scanf ("%29s",l[i].car_name);
 
 printf ("Enter owner name = ");
-scanf ("%s",l[i].owner);
+scanf ("%29s",l[i].owner);
 
 printf ("Enter km done = ");
 scanf ("%d",&l[i].KM);
@@ -112,7 +112,7 @@ break;
 
 case 3:
 printf ("Enter owner name : ");
-scanf ("%s",ow_nm);
+scanf ("%29s",ow_nm);
 for (i=0; i<keepcount; i++)
 {
 if (strcmp(ow_nm, l[i].owner) == 0)
@@ -122,7 +122,7 @@ break;
 
 case 4:
 printf ("Enter car name : ");
-scanf ("%s",cr_nm);
+scanf ("%29s",cr_nm);
 for (i=0; i<keepcount; i++)
 {
 if (strcmp(cr_nm, l[i].car_name) == 0)

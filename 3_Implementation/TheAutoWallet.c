@@ -186,7 +186,7 @@ scanf("%d",&g);
              
              break;
              case 12:
-             printf("\nMODEL       X4 ");
+             printf("\nMODEL        X4 ");
              printf("\nPOWER       250 HP ");
              printf("\nFUEL        PETROL ");
              printf("\nMANU        2022 ");

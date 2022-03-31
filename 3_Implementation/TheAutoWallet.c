@@ -19,7 +19,7 @@ int KM,n,Z;
 int main()
 {
 
-char nam;
+char nam[20];
  printf("ENTER USER  NAME ");
  scanf("%s",&nam);
  srand(time(0));

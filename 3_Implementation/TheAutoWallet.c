@@ -21,7 +21,7 @@ int main()
 
 char nam[20];
  printf("ENTER USER  NAME ");
- scanf("%s",nam);
+ scanf("%19s",nam);
  srand(time(0));
  for(int i = 0; i<1; i++)
  printf("YOUR REFERENCE  NUMBER ");

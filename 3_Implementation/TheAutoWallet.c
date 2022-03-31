@@ -186,7 +186,7 @@ scanf("%d",&g);
              
              break;
              case 12:
-             printf("\nMODEL        X4 ");
+             
              printf("\nPOWER       250 HP ");
              printf("\nFUEL        PETROL ");
              printf("\nMANU        2022 ");
@@ -417,7 +417,7 @@ scanf("%d",&g);
              printf("\nPOWER       210 HP ");
              printf("\nFUEL        PETROL ");
              printf("\nMANU        2022 ");
-             printf("\nTOPSPEED    340 KMP");
+            
              
              X =2500000;
              printf("\n PRICE      %0.2f",X);
@@ -502,7 +502,7 @@ scanf("%d",&g);
              printf("\nPOWER       195 HP ");
              printf("\nFUEL        PETROL ");
              printf("\nMANU        2022 ");
-             printf("\nTOPSPEED    295 KMP");
+           
           
              
              X =2500000;

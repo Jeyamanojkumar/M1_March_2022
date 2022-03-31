@@ -12,8 +12,8 @@ struct library
 {
 char car_name[30];
 char owner[30];
-int KM,n,Z;
- float price, r;
+int KM;
+ float price;
 };
 
 int main()
@@ -34,7 +34,7 @@ i=j=keepcount = 0;
 
 int K,g, keepccount;
 K=g=keepccount = 0;
-char ml_nm[30],kl_nm[30];
+
 int f,e, keepcccount;
 f=e=keepcccount = 0;
 

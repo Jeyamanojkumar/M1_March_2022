@@ -13,7 +13,7 @@ struct library
 char car_name[30];
 char owner[30];
 int KM,n,Z;
- float price,p, R, r,d,X, emi;
+ float price, r;
 };
 
 int main()
